@@ -1,1 +1,113 @@
+@import "null.css";
 
+body, #root, .App, .screenDefault {
+    background: #4E4B66;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+
+.pageTitle{
+    line-height: 70px;
+    font-size: 40px;
+}
+
+.menuBar {
+    background: #fff;
+    display: flex;
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 32px;
+    flex-direction: column;
+}
+
+.mainContent{
+    background: #fff;
+    display: flex;
+    flex: 1;
+
+    margin: 20px;
+    padding: 30px;
+    border-radius: 32px;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: auto;
+}
+
+.mainContent::-webkit-scrollbar {
+    margin: 10px;
+}
+
+.wrap{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid darkred;
+}
+
+.wrapPole {
+    display: flex;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.menuItem {
+    width: 100%;
+    max-height: 70px;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+}
+
+
+.Button {
+
+    align-items: center;
+    padding: 18px 32px;
+    background: #5F2EEA;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.Button:hover {
+    background: #2A00A2;
+    cursor: pointer;
+}
+.Button:active {
+    background: #14142B;
+    border: 1px solid #F7F7FC;
+}
+
+.memePage{
+    font-size: 30px;
+    align-self: center;
+    margin: auto;
+    height: 500px;
+    max-width: 500px;
+    text-align: center;
+
+}
+
+.memeInput{
+    background: #EFF0F7;
+    border-radius: 16px;
+    border: none;
+    padding: 10px 10px;
+
+}
+
+.memeInput:focus {
+    background: #FCFCFC;
+    border: 2px solid #14142B;
+}
